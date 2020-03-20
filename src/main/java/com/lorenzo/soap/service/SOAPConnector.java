@@ -10,7 +10,7 @@ import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 
 public class SOAPConnector extends WebServiceGatewaySupport {
 	
-	private static final String CLASS_MODEL_LOCATION = "mx.com.credifiel.WSECredifiel.model.";
+	private static final String CLASS_MODEL_LOCATION = "com.lorenzo.soap.model.";
 	
 	@Autowired
 	private EntityManager em;
