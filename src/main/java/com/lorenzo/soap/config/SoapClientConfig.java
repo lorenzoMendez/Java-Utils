@@ -12,13 +12,14 @@ import com.lorenzo.soap.service.SOAPConnector;
  * */
 
 @Configuration
-public class SoapClienteConfig {
+public class SoapClientConfig {
 	
 	@Bean
 	public Jaxb2Marshaller marshaller() {
 		Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 		
-		marshaller.setPackagesToScan( "mx.com.credifiel.estadocuenta.paymentwsdl" );
+		// Define your wsdl location
+		marshaller.setPackagesToScan( "com.lorenzo.soap" );
 		
 		return marshaller;
 	}
@@ -28,7 +29,7 @@ public class SoapClienteConfig {
 		
 		SOAPConnector client = new SOAPConnector();
 		
-		client.setDefaultUri( "http://webservice.cifrada.interred.adquira.com.mx/" );
+		client.setDefaultUri( "http://webservice.com.mx/" );
 		client.setMarshaller( marshaller );
 		client.setUnmarshaller( marshaller );
 		
