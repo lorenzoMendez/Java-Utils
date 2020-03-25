@@ -10,6 +10,7 @@ import com.lorenzo.soap.commons.BaseResponse;
 import com.lorenzo.soap.commons.ConfigurationLoader;
 import com.lorenzo.soap.commons.ResponseObject;
 import com.lorenzo.soap.enums.ErrorResponseEnum;
+import com.lorenzo.soap.service.EmailService;
 import com.lorenzo.soap.service.SOAPConnector;
 
 @RestController
@@ -18,6 +19,9 @@ public class TestController extends BaseResponse {
 	
 	@Autowired
 	private SOAPConnector connector;
+	
+	@Autowired
+	private EmailService emailService;
 	
 	@GetMapping( "/consumer" )
 	public ResponseObject consumer() {
@@ -54,6 +58,24 @@ public class TestController extends BaseResponse {
 			//System.out.println( configLoader.getValue1() );
 			
 			return setResponseObject( "WELCOME TO TEST CONTROLLER", HttpStatus.OK.value(), "");
+			
+		} catch( Exception err ) {
+			return setResponseObject( null, ErrorResponseEnum.CONSUME_WEB_SERVICE.getCodeError(), err.getMessage() );
+		}
+	}
+	
+	/*
+	 * How send message for email 
+	 * 
+	 * How build pdf document and attached in a email
+	 * 
+	 * */
+	@GetMapping( "/sendEmail" )
+	public ResponseObject sendEmail() {
+		try {
+			emailService.sendVoucherTest( );
+			
+			return setResponseObject( 1, HttpStatus.OK.value(), "");
 			
 		} catch( Exception err ) {
 			return setResponseObject( null, ErrorResponseEnum.CONSUME_WEB_SERVICE.getCodeError(), err.getMessage() );
