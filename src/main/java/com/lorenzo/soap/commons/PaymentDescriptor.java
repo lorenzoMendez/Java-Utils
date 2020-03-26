@@ -20,7 +20,7 @@ public class PaymentDescriptor implements Serializable {
 	private BigDecimal totalAmount;
 	private String operationType;
 	private String paymentType;
-	private String issuer;			// Nombre del banco emisor
+	private String issuer;
 	
 	public PaymentDescriptor() {
 		super();

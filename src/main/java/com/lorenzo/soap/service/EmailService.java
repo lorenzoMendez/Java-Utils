@@ -2,7 +2,11 @@ package com.lorenzo.soap.service;
 
 import java.io.ByteArrayOutputStream;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.itextpdf.text.BaseColor;
@@ -19,11 +23,30 @@ import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.pdf.draw.LineSeparator;
+import com.lorenzo.soap.commons.ConfigurationLoader;
 import com.lorenzo.soap.commons.PaymentDescriptor;
 import com.lorenzo.soap.util.NumberUtil;
 
 @Service
 public class EmailService {
+	
+	@Autowired
+	private Properties initProperties;
+	
+	public List<String> getProperties() {
+		List<String> listProperties = new ArrayList<>();
+		
+		listProperties.add( initProperties.getProperty( "KEY_FIRST" ) );
+		listProperties.add( initProperties.getProperty( "KEY_SECOND" ) );
+		
+		// The Singleton ConfigurationLoader is load in this moment
+		ConfigurationLoader loader = ConfigurationLoader.getInstance();
+		
+		System.out.println( loader.getValue1() );
+		System.out.println( loader.getValue2() );
+		
+		return listProperties;
+	}
 	
 	public void sendVoucherTest() throws Exception {	
 		PaymentDescriptor voucher = new PaymentDescriptor();
