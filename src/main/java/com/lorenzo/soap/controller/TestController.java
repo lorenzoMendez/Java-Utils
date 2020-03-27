@@ -40,8 +40,6 @@ public class TestController extends BaseResponse {
 	public ResponseObject singletonTest() {
 		try {
 			
-			//System.out.println( configLoader.getValue1() );
-			
 			return setResponseObject( 1, HttpStatus.OK.value(), "");
 			
 		} catch( Exception err ) {
@@ -54,8 +52,6 @@ public class TestController extends BaseResponse {
 		try {
 			
 			ConfigurationLoader loader = ConfigurationLoader.getInstance();
-			
-			//System.out.println( configLoader.getValue1() );
 			
 			return setResponseObject( "WELCOME TO TEST CONTROLLER", HttpStatus.OK.value(), "");
 			

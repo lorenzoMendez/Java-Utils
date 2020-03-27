@@ -31,12 +31,14 @@ public class SoapconsumerApplication {
 	@Bean
 	public Properties initProperties() throws Exception {
 		Properties properties = new Properties();
-		
 		try (InputStream input = new FileInputStream("src/main/resources/configuration.properties") ) {
             properties.load( input );
             properties.setProperty( "KEY_FIRST", new String( properties.getProperty("KEY_FIRST").getBytes( "ISO8859_1" ) ) );
             properties.setProperty( "KEY_SECOND", new String( properties.getProperty("KEY_SECOND").getBytes( "ISO8859_1" ) ) );
             
+            /*
+             * Setter singleton atributes
+             * */
             ConfigurationLoader loader = ConfigurationLoader.getInstance();
             
             loader.setValue1( properties.getProperty( "KEY_FIRST" ) );

@@ -1,16 +1,12 @@
 package com.lorenzo.soap.commons;
 
-import org.springframework.beans.factory.annotation.Value;
-
+/*
+ * My Singleton Definition
+ * 
+ * */
 public class ConfigurationLoader {
-	
-	@Value( "${item_test1}" )
 	private String value1;
-	
-	@Value( "${item_test2}" )
 	private String value2;
-	
-	@Value( "${item_test3}" )
 	private String value3;
 	
 	private static volatile ConfigurationLoader instance;
