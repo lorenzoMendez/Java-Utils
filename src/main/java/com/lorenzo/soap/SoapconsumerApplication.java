@@ -27,9 +27,10 @@ public class SoapconsumerApplication {
 	/*
 	 * How read properties values
 	 * 
+	 * This method has only executed when the project has loaded
 	 * */
 	@Bean
-	public Properties initProperties() throws Exception {
+	public void initProperties() throws Exception {
 		Properties properties = new Properties();
 		try (InputStream input = new FileInputStream("src/main/resources/configuration.properties") ) {
             properties.load( input );
@@ -37,14 +38,14 @@ public class SoapconsumerApplication {
             properties.setProperty( "KEY_SECOND", new String( properties.getProperty("KEY_SECOND").getBytes( "ISO8859_1" ) ) );
             
             /*
-             * Setter singleton atributes
+             * Setter singleton attributes
              * */
             ConfigurationLoader loader = ConfigurationLoader.getInstance();
             
             loader.setValue1( properties.getProperty( "KEY_FIRST" ) );
             loader.setValue2( properties.getProperty( "KEY_SECOND" ) );
+            loader.setValue3( "My name" );
             
-            return properties;
         } catch (Exception ex) {
             throw new Exception( "Error reading properties file." );
         }

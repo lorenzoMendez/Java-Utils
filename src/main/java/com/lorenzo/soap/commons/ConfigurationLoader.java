@@ -65,4 +65,9 @@ public class ConfigurationLoader {
 	public void setValue3(String value4) {
 		this.value3 = value4;
 	}
+
+	@Override
+	public String toString() {
+		return "ConfigurationLoader [value1=" + value1 + ", value2=" + value2 + ", value3=" + value3 + "]";
+	}
 }

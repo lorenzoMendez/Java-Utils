@@ -69,7 +69,7 @@ public class EmailService {
 		byte[] pdf = this.buildVoucher( voucher );
 		
 		final String message = "This message has been send to you for testing my application."
-				+ "<br><br>Feel free to response to my email lor90td@gmail.com if you want.</b><br>";
+				+ "<br><br>Feel free to response me, my email is lor90td@gmail.com</b><br>";
 		
 		MailThread mail = new MailThread( "Mail header", email, message, pdf );
 		
@@ -247,7 +247,7 @@ public class EmailService {
             document.add( phrase1 );
             
             Paragraph phrase2 = new Paragraph();
-            Chunk atribute2 = new Chunk( "Para dudas o aclaraciones contacte a nuestra línea de atención a clientes 4095039450 ó une@correo.com.mx\n\n", FontFactory.getFont( "arial", 8, Font.NORMAL, BaseColor.GRAY ) );
+            Chunk atribute2 = new Chunk( "Para dudas o aclaraciones contacte a nuestra línea de atención a clientes 4095039450 ó mynombre@correo.com.mx\n\n", FontFactory.getFont( "arial", 8, Font.NORMAL, BaseColor.GRAY ) );
             phrase2.add( atribute2 );
             phrase2.setAlignment( Element.ALIGN_CENTER );
             document.add( phrase2 );

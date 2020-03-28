@@ -36,24 +36,12 @@ public class TestController extends BaseResponse {
 		}
 	}
 	
-	@GetMapping( "/singleton" )
-	public ResponseObject singletonTest() {
-		try {
-			
-			return setResponseObject( 1, HttpStatus.OK.value(), "");
-			
-		} catch( Exception err ) {
-			return setResponseObject( null, ErrorResponseEnum.CONSUME_WEB_SERVICE.getCodeError(), err.getMessage() );
-		}
-	}
-	
-	@GetMapping( "/welcome" )
+	@GetMapping( "/singletonTest" )
 	public ResponseObject welcome() {
 		try {
-			
 			ConfigurationLoader loader = ConfigurationLoader.getInstance();
 			
-			return setResponseObject( "WELCOME TO TEST CONTROLLER", HttpStatus.OK.value(), "");
+			return setResponseObject( loader.toString(), HttpStatus.OK.value(), "");
 			
 		} catch( Exception err ) {
 			return setResponseObject( null, ErrorResponseEnum.CONSUME_WEB_SERVICE.getCodeError(), err.getMessage() );
