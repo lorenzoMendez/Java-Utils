@@ -1,0 +1,1509 @@
+<br/>
+<br/>
+
+<div style="height:10px">
+</div>
+<table style="width: 100%;">
+    <tr>
+        <td style="width: 33%" valign="middle">
+            <br/>
+            <br/>
+            <div style='text-align: center; font-size:8pt; font-family: "ArialMT"'>               
+                ORG-RSC-01 Ver 01.0
+            </div>
+            <br/>
+            <div style='text-align: center; font-size:14pt; font-family: "Arial Rounded MT Bold"'>               
+                <b>SOLICITUD <br/>DE CRÉDITO</b>
+            </div>
+        </td>
+        <td style="width: 33%" valign="middle">
+            <div class="imagen" style="height: 45.5pt" data-src="{logocf03}" />
+        </td>
+        <td style="width: 33%" valign="middle">
+            <table>
+                <tr>
+                    <td align="right" style='vertical-align: top; font-size:11px; font-family: "Arial Rounded MT Bold";'>FOLIO NO.</td>
+                    <td></td>
+                    <td style="text-align:center">
+                        <div class="codigobarras" style="width:150px; height: 10px" data="{p1_folio}" />
+                        {p1_folio}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> </td>
+                </tr>
+                <tr>
+                    <td align="right" style='font-size:11px; font-family: "Arial Rounded MT Bold";'>PROMOCIÓN</td>
+                    <td></td>
+                    <td style="width:65%; border: 1px solid #000; text-align:center; padding:2px; font-family: 'Courier New'; font-size: 11px"> {p1_promocion}</td>
+                </tr>
+                <tr>
+                    <td align="right" style='font-size:11px; font-family: "Arial Rounded MT Bold";'>NO. DE</td>
+                    <td></td>
+                    <td style="width:65%; border: 1px solid #000; text-align:center; padding:2px; font-family: 'Courier New'; font-size: 10px"> {p1_noDe}</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table style="width: 100%;" >
+    <tr>
+        <td style="width:230px;"></td>
+        <td align="center" style='background-color: #000000; color:#FFFFFF; text-align:center; border: 1px solid #000; padding:2px; font-size:11px; font-family: "Arial Rounded MT Bold";'>DISPOSICIÓN EN EFECTIVO</td>
+        <td align="center" style="width:100px; text-align:center; border: 1px solid #000; padding:2px; font-family: 'Courier New'; font-size: 10px">{p1_efectivo}</td>
+        <td style="width:230px;"></td>
+    </tr>    
+</table>    
+<div class='tit141'> </div>
+<div class='seccion_contenido'> 
+
+
+    <table>
+        <tr>
+            <td style="font-family:'ArialMT'; font-size: 9px">IMPORTE DEL CRÉDITO $</td>
+            <td style="width:180px">{p1_monto_solicitado_entero}</td>
+            <td style="font-family:'ArialMT'; font-size: 9px; text-align: left">IMPORTE TOTAL DEL CRÉDITO $</td>
+            <td style="width:96px">{p1_importe_total_entero}</td>
+          
+
+            <td style="background-color: #000000; color:#FFFFFF; text-align:center; border: 1px solid #000; padding:2px; font-family:'ArialMT'; font-size: 9px">VIGENCIA DISPOSICIÓN</td>
+            <td style="width:100px; text-align:center; border: 1px solid #000; padding:2px; font-size: 9px">{p1_vigenciaDis}</td>
+        </tr>
+    </table>
+    <br/>
+
+
+    <table >
+        <tr>
+            <td style="font-family:'ArialMT'; font-size: 9px">TASA MENSUAL</td>
+            <td>{p1_tasa_mensual_entero}</td>
+            <td> %</td>
+            <td style="width:185px"></td>
+            <td style="font-family:'ArialMT'; font-size: 9px">SUCURSAL</td>
+            <td style="width:190px">{p1_sucursal}</td>
+        
+            <td style="width:200px;  border: 1px solid #000; padding:5px; font-size: 9px">VIGENCIA TRÁMITE {p1_vigenciaTramite}</td>
+
+        </tr>    
+    </table>
+
+    <table style="width: 100%">
+        <tr>
+            <td style="width:215px; font-family:'ArialMT'; font-size: 9px">IMPORTE DE C/U DE LOS PAGOS DEL CRÉDITO $</td>
+            <td style="width:77px">{p1_importe_cu_entero}</td>
+          
+            <td style="width:30px; font-family:'ArialMT'; font-size: 9px">PLAZO</td>
+            <td style="width:310px">{p1_plazo}</td>
+        
+            <td style="width:50px; font-family:'ArialMT'; font-size: 9px">FORMA<br/>DE PAGO</td>
+            <td>
+                <table>
+                    <tr>
+                        <td style="width:10px; border:1px solid #686d71; ">
+                            {p1_forma_pago_deposito}
+                        </td>
+                        <td>Depósito</td>
+                    </tr>
+                    <tr>
+                        <td style="width:10px; border:1px solid #686d71; ">
+                            {p1_forma_pago_ventanilla}
+                        </td>
+                        <td>Ventanilla</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>    
+    </table>
+    <table >
+        <tr>
+            <td style="font-family:'ArialMT'; font-size: 9px">
+                GERENTE
+            </td>
+            <td>
+                <u>{p1_gerente}</u>
+            </td>
+            <td style="width:30px"></td>
+              
+            <td style="font-family:'ArialMT'; font-size: 9px">
+                SUPERVISOR
+            </td>
+            <td>
+                <u>{p1_supervisor}</u>
+            </td>
+            <td style="width:30px"></td>
+            <td style="font-family:'ArialMT'; font-size: 9px">
+                PROMOTOR
+            </td>
+            <td>
+                <u>{p1_promotor}</u>
+            </td>
+            <td style="width:30px"></td>     
+            <td style="font-family:'ArialMT'; font-size: 9px">SUCURSAL CREDIFIEL</td>
+            <td style="width:150px">
+                <u>{p1_sucursal_credifiel}</u>
+            </td>
+       
+      
+        </tr>    
+    </table>
+    <br/>
+</div>
+
+<div class='seccion_titulo_ref'> INFORMACIÓN DEL SOLICITANTE (DATOS PERSONALES)</div>
+<div class='seccion_contenido'>
+    <br/>
+    <table width="100%">
+        <tr>
+            <td>NOMBRE:</td>
+            <td style="width:400px">{p1_solicitante_apellido_paterno} {p1_solicitante_apellido_materno} {p1_solicitante_nombre} {p1_solicitante_nombre2}</td>            
+            <td style="width:53px"></td>
+            <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">R.F.C.</td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_rfc[0]}</td>
+                        <td>{p1_solicitante_rfc[1]}</td>
+                        <td>{p1_solicitante_rfc[2]}</td>
+                        <td>{p1_solicitante_rfc[3]}</td>
+                        <td>{p1_solicitante_rfc[4]}</td>
+                        <td>{p1_solicitante_rfc[5]}</td>
+                        <td>{p1_solicitante_rfc[6]}</td>
+                        <td>{p1_solicitante_rfc[7]}</td>
+                        <td>{p1_solicitante_rfc[8]}</td>
+                        <td>{p1_solicitante_rfc[9]}</td>
+                        <td>{p1_solicitante_rfc[10]}</td>
+                        <td>{p1_solicitante_rfc[11]}</td>
+                        <!-- <td>{p1_solicitante_rfc[12]}</td>
+                        <td>{p1_solicitante_rfc[13]}</td>
+                        <td>{p1_solicitante_rfc[14]}</td>
+                        <td>{p1_solicitante_rfc[15]}</td>
+                        <td>{p1_solicitante_rfc[16]}</td>
+                        <td>{p1_solicitante_rfc[17]}</td> -->
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_rfc[12]}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+  
+  
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_curp[0]}</td>
+                        <td>{p1_solicitante_curp[1]}</td>
+                        <td>{p1_solicitante_curp[2]}</td>
+                        <td>{p1_solicitante_curp[3]}</td>
+                        <td>{p1_solicitante_curp[4]}</td>
+                        <td>{p1_solicitante_curp[5]}</td>
+                        <td>{p1_solicitante_curp[6]}</td>
+                        <td>{p1_solicitante_curp[7]}</td>
+                        <td>{p1_solicitante_curp[8]}</td>
+                        <td>{p1_solicitante_curp[9]}</td>
+                        <td>{p1_solicitante_curp[10]}</td>
+                        <td>{p1_solicitante_curp[11]}</td>
+                        <td>{p1_solicitante_curp[12]}</td>
+                        <td>{p1_solicitante_curp[13]}</td>
+                        <td>{p1_solicitante_curp[14]}</td>
+                        <td>{p1_solicitante_curp[15]}</td>
+                        <td>{p1_solicitante_curp[16]}</td>
+                        <td>{p1_solicitante_curp[17]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_curp[18]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">CURP</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_edo_civil[0]}</td>
+                        <td>{p1_solicitante_edo_civil[1]}</td>
+                        <td>{p1_solicitante_edo_civil[2]}</td>
+                        <td>{p1_solicitante_edo_civil[3]}</td>
+                        <td>{p1_solicitante_edo_civil[4]}</td>
+                        <td>{p1_solicitante_edo_civil[5]}</td>
+                        <td>{p1_solicitante_edo_civil[6]}</td>
+                        <td>{p1_solicitante_edo_civil[7]}</td>
+                        <td>{p1_solicitante_edo_civil[8]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_edo_civil[9]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">ESTADO CIVIL</td>
+                    </tr>
+                </table>
+            </td>
+            <td style='text-align: right; vertical-align: top'>
+                <span style='font-family: "ArialMT";font-size: 7.5px'>FECHA DE<br/>NACIMIENTO</span>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_fecha_nac_dia[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_fecha_nac_dia[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px" align="left" colspan="2">D D</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_fecha_nac_mes[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_fecha_nac_mes[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px" align="left" colspan="2">M M</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_fecha_nac_anio[0]}</td>
+                        <td>{p1_solicitante_fecha_nac_anio[1]}</td>
+                        <td>{p1_solicitante_fecha_nac_anio[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_fecha_nac_anio[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px" align="left" colspan="4">A A A A</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="font-size: 7.5px; vertical-align: top">
+                GÉNERO
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td style="border:1px solid #686d71; color:#FFFFFF;">{p1_solicitante_f}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px" align="left" colspan="2">F</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td style="border:1px solid #686d71; color:#FFFFFF;">{p1_solicitante_m}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px" align="left" colspan="2">M</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+  
+    
+    <table width="100%" cellpadding="0" cellspacing="0" style="padding-left:3px">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_pais_nacimiento}</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 5px"></td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_entidad}</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 5px"></td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100px">
+                    <tr>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_nacionalidad}</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 5px"></td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_nss[0]}</td>
+                        <td>{p1_solicitante_nss[1]}</td>
+                        <td>{p1_solicitante_nss[2]}</td>
+                        <td>{p1_solicitante_nss[3]}</td>
+                        <td>{p1_solicitante_nss[4]}</td>
+                        <td>{p1_solicitante_nss[5]}</td>
+                        <td>{p1_solicitante_nss[6]}</td>
+                        <td>{p1_solicitante_nss[7]}</td>
+                        <td>{p1_solicitante_nss[8]}</td>
+                        <td>{p1_solicitante_nss[9]}</td>
+                        <td>{p1_solicitante_nss[10]}</td>
+                        <td>{p1_solicitante_nss[11]}</td>
+                        <td>{p1_solicitante_nss[12]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_nss[12]}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PAÍS DE NACIMIENTO
+            </td>
+            <td style="width: 15px"></td>
+            <td>
+                ENTIDAD FEDERATIVA DE NACIMIENTO
+            </td>
+            <td style="width: 15px"></td>
+            <td>
+                NACIONALIDAD
+            </td>
+            <td style="width: 5px"></td>
+            <td>
+                NÚMERO DE SEGURIDAD SOCIAL
+            </td>
+        </tr>
+    </table>
+  
+  
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_calle[0]}</td>
+                        <td>{p1_solicitante_calle[1]}</td>
+                        <td>{p1_solicitante_calle[2]}</td>
+                        <td>{p1_solicitante_calle[3]}</td>
+                        <td>{p1_solicitante_calle[4]}</td>
+                        <td>{p1_solicitante_calle[5]}</td>
+                        <td>{p1_solicitante_calle[6]}</td>
+                        <td>{p1_solicitante_calle[7]}</td>
+                        <td>{p1_solicitante_calle[8]}</td>
+                        <td>{p1_solicitante_calle[9]}</td>
+                        <td>{p1_solicitante_calle[10]}</td>
+                        <td>{p1_solicitante_calle[11]}</td>
+                        <td>{p1_solicitante_calle[12]}</td>
+                        <td>{p1_solicitante_calle[13]}</td>
+                        <td>{p1_solicitante_calle[14]}</td>
+                        <td>{p1_solicitante_calle[15]}</td>
+                        <td>{p1_solicitante_calle[16]}</td>
+                        <td>{p1_solicitante_calle[17]}</td>
+                        <td>{p1_solicitante_calle[18]}</td>
+                        <td>{p1_solicitante_calle[19]}</td>
+                        <td>{p1_solicitante_calle[20]}</td>
+                        <td>{p1_solicitante_calle[21]}</td>
+                        <td>{p1_solicitante_calle[22]}</td>
+                        <td>{p1_solicitante_calle[23]}</td>
+                        <td>{p1_solicitante_calle[24]}</td>
+                        <td>{p1_solicitante_calle[25]}</td>
+                        <td>{p1_solicitante_calle[26]}</td>
+                        <td>{p1_solicitante_calle[27]}</td>
+                        <td>{p1_solicitante_calle[28]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_calle[29]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">DOMICILIO ACTUAL CALLE</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_next[0]}</td>
+                        <td>{p1_solicitante_next[1]}</td>
+                        <td>{p1_solicitante_next[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_next[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">NO. EXT</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_nint[0]}</td>
+                        <td>{p1_solicitante_nint[1]}</td>
+                        <td>{p1_solicitante_nint[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_nint[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">NO. INT</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='width:120px; border-right: 1px solid #AAA;'>{p1_solicitante_ciudad}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">CIUDAD</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+  
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_colonia[0]}</td>
+                        <td>{p1_solicitante_colonia[1]}</td>
+                        <td>{p1_solicitante_colonia[2]}</td>
+                        <td>{p1_solicitante_colonia[3]}</td>
+                        <td>{p1_solicitante_colonia[4]}</td>
+                        <td>{p1_solicitante_colonia[5]}</td>
+                        <td>{p1_solicitante_colonia[6]}</td>
+                        <td>{p1_solicitante_colonia[7]}</td>
+                        <td>{p1_solicitante_colonia[8]}</td>
+                        <td>{p1_solicitante_colonia[9]}</td>
+                        <td>{p1_solicitante_colonia[10]}</td>
+                        <td>{p1_solicitante_colonia[11]}</td>
+                        <td>{p1_solicitante_colonia[12]}</td>
+                        <td>{p1_solicitante_colonia[13]}</td>
+                        <td>{p1_solicitante_colonia[14]}</td>
+                        <td>{p1_solicitante_colonia[15]}</td>
+                        <td>{p1_solicitante_colonia[16]}</td>
+                        <td>{p1_solicitante_colonia[17]}</td>
+                        <td>{p1_solicitante_colonia[18]}</td>
+                        <td>{p1_solicitante_colonia[19]}</td>
+                        <td>{p1_solicitante_colonia[20]}</td>
+                        <td>{p1_solicitante_colonia[21]}</td>
+                        <td>{p1_solicitante_colonia[22]}</td>
+                        <td>{p1_solicitante_colonia[23]}</td>
+                        <td>{p1_solicitante_colonia[24]}</td>
+                        <td>{p1_solicitante_colonia[25]}</td>
+                        <td>{p1_solicitante_colonia[26]}</td>
+                        <td>{p1_solicitante_colonia[27]}</td>
+                        <td>{p1_solicitante_colonia[28]}</td>
+                        <td>{p1_solicitante_colonia[29]}</td>
+                        <td>{p1_solicitante_colonia[30]}</td>
+                        <td>{p1_solicitante_colonia[31]}</td>
+                        <td>{p1_solicitante_colonia[32]}</td>
+                        <td>{p1_solicitante_colonia[33]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_colonia[34]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">COLONIA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='width:200px; border-right: 1px solid #AAA;'>{p1_solicitante_municipio}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">ALCALDÍA O MUNICIPIO</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+  
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='width:163px; border-right: 1px solid #AAA;'>{p1_solicitante_estado}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">ESTADO</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_pais[0]}</td>
+                        <td>{p1_solicitante_pais[1]}</td>
+                        <td>{p1_solicitante_pais[2]}</td>
+                        <td>{p1_solicitante_pais[3]}</td>
+                        <td>{p1_solicitante_pais[4]}</td>
+                        <td>{p1_solicitante_pais[5]}</td>
+                        <td>{p1_solicitante_pais[6]}</td>
+                        <td>{p1_solicitante_pais[7]}</td>
+                        <td>{p1_solicitante_pais[8]}</td>
+                        <td>{p1_solicitante_pais[9]}</td>
+                        <td>{p1_solicitante_pais[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_pais[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">PAÍS</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1">
+                    <tr>
+                        <td>{p1_solicitante_entreCalles[0]}</td>
+                        <td>{p1_solicitante_entreCalles[1]}</td>
+                        <td>{p1_solicitante_entreCalles[2]}</td>
+                        <td>{p1_solicitante_entreCalles[3]}</td>
+                        <td>{p1_solicitante_entreCalles[4]}</td>
+                        <td>{p1_solicitante_entreCalles[5]}</td>
+                        <td>{p1_solicitante_entreCalles[6]}</td>
+                        <td>{p1_solicitante_entreCalles[7]}</td>
+                        <td>{p1_solicitante_entreCalles[8]}</td>
+                        <td>{p1_solicitante_entreCalles[9]}</td>
+                        <td>{p1_solicitante_entreCalles[10]}</td>
+                        <td>{p1_solicitante_entreCalles[11]}</td>
+                        <td>{p1_solicitante_entreCalles[12]}</td>
+                        <td>{p1_solicitante_entreCalles[13]}</td>
+                        <td>{p1_solicitante_entreCalles[14]}</td>
+                        <td>{p1_solicitante_entreCalles[15]}</td>
+                        <td>{p1_solicitante_entreCalles[16]}</td>
+                        <td>{p1_solicitante_entreCalles[17]}</td>
+                        <td>{p1_solicitante_entreCalles[18]}</td>
+                        <td>{p1_solicitante_entreCalles[19]}</td>
+                        <td>{p1_solicitante_entreCalles[20]}</td>
+                        <td>{p1_solicitante_entreCalles[21]}</td>
+                        <td>{p1_solicitante_entreCalles[22]}</td>
+                        <td>{p1_solicitante_entreCalles[23]}</td>
+                        <td>{p1_solicitante_entreCalles[24]}</td>
+                        <td>{p1_solicitante_entreCalles[25]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_entreCalles[26]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">ENTRE CALLES</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_solicitante_cp[0]}</td>
+                        <td>{p1_solicitante_cp[1]}</td>
+                        <td>{p1_solicitante_cp[2]}</td>
+                        <td>{p1_solicitante_cp[3]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_cp[4]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="13">C.P.</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" align="center">
+                    <tr>
+                        <td style='border-right: 1px solid #AAA; color: #FFFFFF;'>{p1_solicitante_anio_res[0]}</td>
+                        <td style='border-right: 1px solid #AAA; color: #FFFFFF;'>{p1_solicitante_anio_res[1]}</td>
+                    </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="2">AÑOS RESIDENCIA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td >
+                            <span style="font-size: 8px;" >TIPO DE VIVIENDA : </span>
+                            <span style="font-size: 8px" >PROPIA </span>
+                            <span style="border:1px solid #686d71; color: #FFFFFF;">{p1_solicitante_vivienda_propia}</span>
+                            <span style="font-size: 8px" >RENTADA </span>
+                            <span style="border:1px solid #686d71; color: #FFFFFF;"> {p1_solicitante_vivienda_alquiler} </span>
+                            <span style="font-size: 8px" >FAMILIARES </span>
+                            <span style="border:1px solid #686d71; color: #FFFFFF;"> {p1_solicitante_vivienda_familiar} </span>
+                            <span style="font-size: 8px" >HIPOTECADA </span>
+                            <span style="border:1px solid #686d71; color: #FFFFFF;">  {p1_solicitante_vivienda_hipotecada}</span>
+                            <span style="font-size: 8px" >OTRO </span>
+                            <span style="border:1px solid #686d71; color: #FFFFFF;"> {p1_solicitante_vivienda_otro} </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td>
+                            <span style="font-size: 9px"># DEPENDIENTES ECONÓMICOS </span>
+                        </td>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" class="field1" width="100%" align="center">
+                                <tr>
+                                    <td>{p1_solicitante_dependientes[0]}</td>
+                                    <td>{p1_solicitante_dependientes[1]}</td>
+                                    <td>{p1_solicitante_dependientes[2]}</td>
+                                    <td style='border-right: 1px solid #AAA;'>{p1_solicitante_dependientes[3]}</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_solicitante_telefono[0]}</td>
+                        <td>{p1_solicitante_telefono[1]}</td>
+                        <td>{p1_solicitante_telefono[2]}</td>
+                        <td>{p1_solicitante_telefono[3]}</td>
+                        <td>{p1_solicitante_telefono[4]}</td>
+                        <td>{p1_solicitante_telefono[5]}</td>
+                        <td>{p1_solicitante_telefono[6]}</td>
+                        <td>{p1_solicitante_telefono[7]}</td>
+                        <td>{p1_solicitante_telefono[8]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_telefono[9]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">TELÉFONO CON CLAVE LADA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_solicitante_horario_contacto[0]}</td>
+                        <td>{p1_solicitante_horario_contacto[1]}</td>
+                        <td>{p1_solicitante_horario_contacto[2]}</td>
+                        <td>{p1_solicitante_horario_contacto[3]}</td>
+                        <td>{p1_solicitante_horario_contacto[4]}</td>
+                        <td>{p1_solicitante_horario_contacto[5]}</td>
+                        <td>{p1_solicitante_horario_contacto[6]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_horario_contacto[7]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">HORARIO DE CONTACTO</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_solicitante_telefono_celular[0]}</td>
+                        <td>{p1_solicitante_telefono_celular[1]}</td>
+                        <td>{p1_solicitante_telefono_celular[2]}</td>
+                        <td>{p1_solicitante_telefono_celular[3]}</td>
+                        <td>{p1_solicitante_telefono_celular[4]}</td>
+                        <td>{p1_solicitante_telefono_celular[5]}</td>
+                        <td>{p1_solicitante_telefono_celular[6]}</td>
+                        <td>{p1_solicitante_telefono_celular[7]}</td>
+                        <td>{p1_solicitante_telefono_celular[8]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_telefono_celular[9]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">TELÉFONO CELULAR</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_solicitante_telefono_recados[0]}</td>
+                        <td>{p1_solicitante_telefono_recados[1]}</td>
+                        <td>{p1_solicitante_telefono_recados[2]}</td>
+                        <td>{p1_solicitante_telefono_recados[3]}</td>
+                        <td>{p1_solicitante_telefono_recados[4]}</td>
+                        <td>{p1_solicitante_telefono_recados[5]}</td>
+                        <td>{p1_solicitante_telefono_recados[6]}</td>
+                        <td>{p1_solicitante_telefono_recados[7]}</td>
+                        <td>{p1_solicitante_telefono_recados[8]}</td>
+                        <td>{p1_solicitante_telefono_recados[9]}</td>
+                        <td>{p1_solicitante_telefono_recados[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_solicitante_telefono_recados[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">TELÉFONO DE RECADOS CON LADA</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='width:400px;border-right: 1px solid #AAA;'>{p1_solicitante_mail}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">E-MAIL PERSONAL</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td style='width:400px;border-right: 1px solid #AAA;'>{p1_solicitante_mail_laboral}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT'" align="left" colspan="10">E-MAIL LABORAL</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br/>
+</div>
+
+
+<div class='seccion_titulo_ref '> INFORMACIÓN DEL CÓNYUGE-FAMILIAR</div>
+<div class='seccion_contenido'>
+    <br/>
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_conyuge_apellido_paterno[0]}</td>
+                        <td>{p1_conyuge_apellido_paterno[1]}</td>
+                        <td>{p1_conyuge_apellido_paterno[2]}</td>
+                        <td>{p1_conyuge_apellido_paterno[3]}</td>
+                        <td>{p1_conyuge_apellido_paterno[4]}</td>
+                        <td>{p1_conyuge_apellido_paterno[5]}</td>
+                        <td>{p1_conyuge_apellido_paterno[6]}</td>
+                        <td>{p1_conyuge_apellido_paterno[7]}</td>
+                        <td>{p1_conyuge_apellido_paterno[8]}</td>
+                        <td>{p1_conyuge_apellido_paterno[9]}</td>
+                        <td>{p1_conyuge_apellido_paterno[10]}</td>
+                        <td>{p1_conyuge_apellido_paterno[11]}</td>
+                        <td>{p1_conyuge_apellido_paterno[12]}</td>
+                        <td>{p1_conyuge_apellido_paterno[13]}</td>
+                        <td>{p1_conyuge_apellido_paterno[14]}</td>
+                        <td>{p1_conyuge_apellido_paterno[15]}</td>
+                  
+                        <td>{p1_conyuge_apellido_materno[0]}</td>
+                        <td>{p1_conyuge_apellido_materno[1]}</td>
+                        <td>{p1_conyuge_apellido_materno[2]}</td>
+                        <td>{p1_conyuge_apellido_materno[3]}</td>
+                        <td>{p1_conyuge_apellido_materno[4]}</td>
+                        <td>{p1_conyuge_apellido_materno[5]}</td>
+                        <td>{p1_conyuge_apellido_materno[6]}</td>
+                        <td>{p1_conyuge_apellido_materno[7]}</td>
+                        <td>{p1_conyuge_apellido_materno[8]}</td>
+                        <td>{p1_conyuge_apellido_materno[9]}</td>
+                        <td>{p1_conyuge_apellido_materno[10]}</td>
+                        <td>{p1_conyuge_apellido_materno[11]}</td>
+                        <td>{p1_conyuge_apellido_materno[12]}</td>
+                        <td>{p1_conyuge_apellido_materno[13]}</td>
+                        <td>{p1_conyuge_apellido_materno[14]}</td>
+                        <td>{p1_conyuge_apellido_materno[15]}</td>
+            
+                        <td>{p1_conyuge_apellido_nombre[0]}</td>
+                        <td>{p1_conyuge_apellido_nombre[1]}</td>
+                        <td>{p1_conyuge_apellido_nombre[2]}</td>
+                        <td>{p1_conyuge_apellido_nombre[3]}</td>
+                        <td>{p1_conyuge_apellido_nombre[4]}</td>
+                        <td>{p1_conyuge_apellido_nombre[5]}</td>
+                        <td>{p1_conyuge_apellido_nombre[6]}</td>
+                        <td>{p1_conyuge_apellido_nombre[7]}</td>
+                        <td>{p1_conyuge_apellido_nombre[8]}</td>
+            
+                        <td>{p1_conyuge_apellido_nombre_2[0]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[1]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[2]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[3]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[4]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[5]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[6]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[7]}</td>
+                        <td>{p1_conyuge_apellido_nombre_2[8]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_conyuge_apellido_nombre_2[9]}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT';" align="left" colspan="16">APELLIDO PATERNO</td>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT';" align="left" colspan="16">APELLIDO MATERNO</td>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT';" align="left" colspan="10">NOMBRE 1</td>
+                        <td style="border:0px; text-align: left; font-family: 'ArialMT';" align="left" colspan="10">NOMBRE 2</td>
+                    </tr>
+                </table>
+            </td>
+      
+        </tr>
+    </table>
+    
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_conyuge_telefono[0]}</td>
+                        <td>{p1_conyuge_telefono[1]}</td>
+                        <td>{p1_conyuge_telefono[2]}</td>
+                        <td>{p1_conyuge_telefono[3]}</td>
+                        <td>{p1_conyuge_telefono[4]}</td>
+                        <td>{p1_conyuge_telefono[5]}</td>
+                        <td>{p1_conyuge_telefono[6]}</td>
+                        <td>{p1_conyuge_telefono[7]}</td>
+                        <td>{p1_conyuge_telefono[8]}</td>
+                        <td>{p1_conyuge_telefono[9]}</td>
+                        <td>{p1_conyuge_telefono[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_conyuge_telefono[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CON CLAVE LADA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{ref1_ext[0]}</td>
+                        <td>{ref1_ext[1]}</td>
+                        <td>{ref1_ext[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{ref1_ext[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">EXT.</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{ref1_horarioContacto[0]}</td>
+                        <td>{ref1_horarioContacto[1]}</td>
+                        <td>{ref1_horarioContacto[2]}</td>
+                        <td>{ref1_horarioContacto[3]}</td>
+                        <td>{ref1_horarioContacto[4]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{ref1_horarioContacto[5]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-size:8.5px; font-family: 'ArialMT';" align="left" colspan="10">HORARIO DE CONTACTO</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_conyuge_telefono_celular[0]}</td>
+                        <td>{p1_conyuge_telefono_celular[1]}</td>
+                        <td>{p1_conyuge_telefono_celular[2]}</td>
+                        <td>{p1_conyuge_telefono_celular[3]}</td>
+                        <td>{p1_conyuge_telefono_celular[4]}</td>
+                        <td>{p1_conyuge_telefono_celular[5]}</td>
+                        <td>{p1_conyuge_telefono_celular[6]}</td>
+                        <td>{p1_conyuge_telefono_celular[7]}</td>
+                        <td>{p1_conyuge_telefono_celular[8]}</td>
+                        <td>{p1_conyuge_telefono_celular[9]}</td>
+                        <td>{p1_conyuge_telefono_celular[10]}</td>
+                        <td>{p1_conyuge_telefono_celular[11]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_conyuge_telefono_celular[12]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CELULAR</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_conyuge_telefono_recados[0]}</td>
+                        <td>{p1_conyuge_telefono_recados[1]}</td>
+                        <td>{p1_conyuge_telefono_recados[2]}</td>
+                        <td>{p1_conyuge_telefono_recados[3]}</td>
+                        <td>{p1_conyuge_telefono_recados[4]}</td>
+                        <td>{p1_conyuge_telefono_recados[5]}</td>
+                        <td>{p1_conyuge_telefono_recados[6]}</td>
+                        <td>{p1_conyuge_telefono_recados[7]}</td>
+                        <td>{p1_conyuge_telefono_recados[8]}</td>
+                        <td>{p1_conyuge_telefono_recados[9]}</td>
+                        <td>{p1_conyuge_telefono_recados[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_conyuge_telefono_recados[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="12">TELÉFONO DE RECADOS CON LADA</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br/>
+</div>
+
+
+<div class='seccion_titulo_ref'> REFERENCIAS PERSONALES</div>
+<div class='seccion_contenido'>
+    <br/>
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_apellido_paterno[0]}</td>
+                        <td>{p1_referencia1_apellido_paterno[1]}</td>
+                        <td>{p1_referencia1_apellido_paterno[2]}</td>
+                        <td>{p1_referencia1_apellido_paterno[3]}</td>
+                        <td>{p1_referencia1_apellido_paterno[4]}</td>
+                        <td>{p1_referencia1_apellido_paterno[5]}</td>
+                        <td>{p1_referencia1_apellido_paterno[6]}</td>
+                        <td>{p1_referencia1_apellido_paterno[7]}</td>
+                        <td>{p1_referencia1_apellido_paterno[8]}</td>
+                        <td>{p1_referencia1_apellido_paterno[9]}</td>
+                        <td>{p1_referencia1_apellido_paterno[10]}</td>
+                        <td>{p1_referencia1_apellido_paterno[11]}</td>
+                        <td>{p1_referencia1_apellido_paterno[12]}</td>
+                                                
+                        <td>{p1_referencia1_apellido_materno[0]}</td>
+                        <td>{p1_referencia1_apellido_materno[1]}</td>
+                        <td>{p1_referencia1_apellido_materno[2]}</td>
+                        <td>{p1_referencia1_apellido_materno[3]}</td>
+                        <td>{p1_referencia1_apellido_materno[4]}</td>
+                        <td>{p1_referencia1_apellido_materno[5]}</td>
+                        <td>{p1_referencia1_apellido_materno[6]}</td>
+                        <td>{p1_referencia1_apellido_materno[7]}</td>
+                        <td>{p1_referencia1_apellido_materno[8]}</td>
+                        <td>{p1_referencia1_apellido_materno[9]}</td>
+                        
+                        <td>{p1_referencia1_apellido_nombre[0]}</td>
+                        <td>{p1_referencia1_apellido_nombre[1]}</td>
+                        <td>{p1_referencia1_apellido_nombre[2]}</td>
+                        <td>{p1_referencia1_apellido_nombre[3]}</td>
+                        <td>{p1_referencia1_apellido_nombre[4]}</td>
+                        <td>{p1_referencia1_apellido_nombre[5]}</td>
+                        <td>{p1_referencia1_apellido_nombre[6]}</td>
+                        <td>{p1_referencia1_apellido_nombre[7]}</td>
+                        <td>{p1_referencia1_apellido_nombre[8]}</td>
+                        <td>{p1_referencia1_apellido_nombre[9]}</td>
+                        
+                        <td>{p1_referencia1_apellido_nombre_2[0]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[1]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[2]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[3]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[4]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[5]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[6]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[7]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[8]}</td>
+                        <td>{p1_referencia1_apellido_nombre_2[9]}</td>
+                        
+                        <td>{p1_referencia1_parentesco[0]}</td>
+                        <td>{p1_referencia1_parentesco[1]}</td>
+                        <td>{p1_referencia1_parentesco[2]}</td>
+                        <td>{p1_referencia1_parentesco[3]}</td>
+                        <td>{p1_referencia1_parentesco[4]}</td>
+                        <td>{p1_referencia1_parentesco[5]}</td>
+                        <td>{p1_referencia1_parentesco[6]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_parentesco[7]}</td>
+                    </tr>
+                    <tr>
+                        <td align="left" colspan="13" style="text-align:left; border:0px; font-family: 'ArialMT';">
+                            <b>1</b> APELLIDO PATERNO</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">APELLIDO MATERNO</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">NOMBRE 1</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">NOMBRE 2</td>
+                        <td align="left" colspan="8" style="text-align:left; border:0px; font-family: 'ArialMT';">PARENTESCO</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+    <table width="100%">
+        <tr>
+            <td style="text-align: right">
+                TIEMPO DE<br/> CONOCERLO
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_tiempo_anio[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_tiempo_anio[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; font-family: 'ArialMT'; border:0px" align="left" colspan="10">AÑOS</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_tiempo_mes[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_tiempo_mes[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; font-family: 'ArialMT'; border:0px" align="left" colspan="10">MESES</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_telefono[0]}</td>
+                        <td>{p1_referencia1_telefono[1]}</td>
+                        <td>{p1_referencia1_telefono[2]}</td>
+                        <td>{p1_referencia1_telefono[3]}</td>
+                        <td>{p1_referencia1_telefono[4]}</td>
+                        <td>{p1_referencia1_telefono[5]}</td>
+                        <td>{p1_referencia1_telefono[6]}</td>
+                        <td>{p1_referencia1_telefono[7]}</td>
+                        <td>{p1_referencia1_telefono[8]}</td>
+                        <td>{p1_referencia1_telefono[9]}</td>
+                        <td>{p1_referencia1_telefono[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_telefono[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CON CLAVE LADA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_telefono_ext[0]}</td>
+                        <td>{p1_referencia1_telefono_ext[1]}</td>
+                        <td>{p1_referencia1_telefono_ext[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_telefono_ext[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">EXT.</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_horario_contato[0]}</td>
+                        <td>{p1_referencia1_horario_contato[1]}</td>
+                        <td>{p1_referencia1_horario_contato[2]}</td>
+                        <td>{p1_referencia1_horario_contato[3]}</td>
+                        <td>{p1_referencia1_horario_contato[4]}</td>
+                        <td>{p1_referencia1_horario_contato[5]}</td>
+                        <td>{p1_referencia1_horario_contato[6]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_horario_contato[7]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">HORARIO DE CONTACTO</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia1_telefono_celular[0]}</td>
+                        <td>{p1_referencia1_telefono_celular[1]}</td>
+                        <td>{p1_referencia1_telefono_celular[2]}</td>
+                        <td>{p1_referencia1_telefono_celular[3]}</td>
+                        <td>{p1_referencia1_telefono_celular[4]}</td>
+                        <td>{p1_referencia1_telefono_celular[5]}</td>
+                        <td>{p1_referencia1_telefono_celular[6]}</td>
+                        <td>{p1_referencia1_telefono_celular[7]}</td>
+                        <td>{p1_referencia1_telefono_celular[8]}</td>
+                        <td>{p1_referencia1_telefono_celular[9]}</td>
+                        <td>{p1_referencia1_telefono_celular[10]}</td>
+                        <td>{p1_referencia1_telefono_celular[11]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia1_telefono_celular[12]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CELULAR</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    
+    <table width="100%">
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_apellido_paterno[0]}</td>
+                        <td>{p1_referencia2_apellido_paterno[1]}</td>
+                        <td>{p1_referencia2_apellido_paterno[2]}</td>
+                        <td>{p1_referencia2_apellido_paterno[3]}</td>
+                        <td>{p1_referencia2_apellido_paterno[4]}</td>
+                        <td>{p1_referencia2_apellido_paterno[5]}</td>
+                        <td>{p1_referencia2_apellido_paterno[6]}</td>
+                        <td>{p1_referencia2_apellido_paterno[7]}</td>
+                        <td>{p1_referencia2_apellido_paterno[8]}</td>
+                        <td>{p1_referencia2_apellido_paterno[9]}</td>
+                        <td>{p1_referencia2_apellido_paterno[10]}</td>
+                        <td>{p1_referencia2_apellido_paterno[11]}</td>
+                        <td>{p1_referencia2_apellido_paterno[12]}</td>
+                                                
+                        <td>{p1_referencia2_apellido_materno[0]}</td>
+                        <td>{p1_referencia2_apellido_materno[1]}</td>
+                        <td>{p1_referencia2_apellido_materno[2]}</td>
+                        <td>{p1_referencia2_apellido_materno[3]}</td>
+                        <td>{p1_referencia2_apellido_materno[4]}</td>
+                        <td>{p1_referencia2_apellido_materno[5]}</td>
+                        <td>{p1_referencia2_apellido_materno[6]}</td>
+                        <td>{p1_referencia2_apellido_materno[7]}</td>
+                        <td>{p1_referencia2_apellido_materno[8]}</td>
+                        <td>{p1_referencia2_apellido_materno[9]}</td>
+                        
+                        <td>{p1_referencia2_apellido_nombre[0]}</td>
+                        <td>{p1_referencia2_apellido_nombre[1]}</td>
+                        <td>{p1_referencia2_apellido_nombre[2]}</td>
+                        <td>{p1_referencia2_apellido_nombre[3]}</td>
+                        <td>{p1_referencia2_apellido_nombre[4]}</td>
+                        <td>{p1_referencia2_apellido_nombre[5]}</td>
+                        <td>{p1_referencia2_apellido_nombre[6]}</td>
+                        <td>{p1_referencia2_apellido_nombre[7]}</td>
+                        <td>{p1_referencia2_apellido_nombre[8]}</td>
+                        <td>{p1_referencia2_apellido_nombre[9]}</td>
+                        
+                        <td>{p1_referencia2_apellido_nombre_2[0]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[1]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[2]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[3]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[4]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[5]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[6]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[7]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[8]}</td>
+                        <td>{p1_referencia2_apellido_nombre_2[9]}</td>
+                        
+                        <td>{p1_referencia2_parentesco[0]}</td>
+                        <td>{p1_referencia2_parentesco[1]}</td>
+                        <td>{p1_referencia2_parentesco[2]}</td>
+                        <td>{p1_referencia2_parentesco[3]}</td>
+                        <td>{p1_referencia2_parentesco[4]}</td>
+                        <td>{p1_referencia2_parentesco[5]}</td>
+                        <td>{p1_referencia2_parentesco[6]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_parentesco[7]}</td>
+                    </tr>
+                    <tr>
+                        <td align="left" colspan="13" style="text-align:left; border:0px; font-family: 'ArialMT';">
+                            <b>2</b> APELLIDO PATERNO</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">APELLIDO MATERNO</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">NOMBRE 1</td>
+                        <td align="left" colspan="10" style="text-align:left; border:0px; font-family: 'ArialMT';">NOMBRE 2</td>
+                        <td align="left" colspan="8" style="text-align:left; border:0px; font-family: 'ArialMT';">PARENTESCO</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+    <table width="100%">
+        <tr>
+            <td style="text-align: right">
+                TIEMPO DE<br/> CONOCERLO
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_tiempo_anio[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_tiempo_anio[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; font-family: 'ArialMT'; border:0px" align="left" colspan="10">AÑOS</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_tiempo_mes[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_tiempo_mes[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; font-family: 'ArialMT'; border:0px" align="left" colspan="10">MESES</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_telefono[0]}</td>
+                        <td>{p1_referencia2_telefono[1]}</td>
+                        <td>{p1_referencia2_telefono[2]}</td>
+                        <td>{p1_referencia2_telefono[3]}</td>
+                        <td>{p1_referencia2_telefono[4]}</td>
+                        <td>{p1_referencia2_telefono[5]}</td>
+                        <td>{p1_referencia2_telefono[6]}</td>
+                        <td>{p1_referencia2_telefono[7]}</td>
+                        <td>{p1_referencia2_telefono[8]}</td>
+                        <td>{p1_referencia2_telefono[9]}</td>
+                        <td>{p1_referencia2_telefono[10]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_telefono[11]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CON CLAVE LADA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_telefono_ext[0]}</td>
+                        <td>{p1_referencia2_telefono_ext[1]}</td>
+                        <td>{p1_referencia2_telefono_ext[2]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_telefono_ext[3]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">EXT.</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_horario_contato[0]}</td>
+                        <td>{p1_referencia2_horario_contato[1]}</td>
+                        <td>{p1_referencia2_horario_contato[2]}</td>
+                        <td>{p1_referencia2_horario_contato[3]}</td>
+                        <td>{p1_referencia2_horario_contato[4]}</td>
+                        <td>{p1_referencia2_horario_contato[5]}</td>
+                        <td>{p1_referencia2_horario_contato[6]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_horario_contato[7]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">HORARIO DE CONTACTO</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_referencia2_telefono_celular[0]}</td>
+                        <td>{p1_referencia2_telefono_celular[1]}</td>
+                        <td>{p1_referencia2_telefono_celular[2]}</td>
+                        <td>{p1_referencia2_telefono_celular[3]}</td>
+                        <td>{p1_referencia2_telefono_celular[4]}</td>
+                        <td>{p1_referencia2_telefono_celular[5]}</td>
+                        <td>{p1_referencia2_telefono_celular[6]}</td>
+                        <td>{p1_referencia2_telefono_celular[7]}</td>
+                        <td>{p1_referencia2_telefono_celular[8]}</td>
+                        <td>{p1_referencia2_telefono_celular[9]}</td>
+                        <td>{p1_referencia2_telefono_celular[10]}</td>
+                        <td>{p1_referencia2_telefono_celular[11]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_referencia2_telefono_celular[12]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">TELÉFONO CELULAR</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br/>
+</div>
+
+<div class='seccion_titulo_ref '> INFORMACIÓN DEL EMPLEO</div>
+<div class='seccion_contenido'>
+    <br/>
+    <table>
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_empleo_departamento[0]}</td>
+                        <td>{p1_empleo_departamento[1]}</td>
+                        <td>{p1_empleo_departamento[2]}</td>
+                        <td>{p1_empleo_departamento[3]}</td>
+                        <td>{p1_empleo_departamento[4]}</td>
+                        <td>{p1_empleo_departamento[5]}</td>
+                        <td>{p1_empleo_departamento[6]}</td>
+                        <td>{p1_empleo_departamento[7]}</td>
+                        <td>{p1_empleo_departamento[8]}</td>
+                        <td>{p1_empleo_departamento[9]}</td>
+                        <td>{p1_empleo_departamento[10]}</td>
+                        <td>{p1_empleo_departamento[11]}</td>
+                        <td>{p1_empleo_departamento[12]}</td>
+                        <td>{p1_empleo_departamento[13]}</td>
+                        <td>{p1_empleo_departamento[14]}</td>
+                        <td>{p1_empleo_departamento[15]}</td>
+                        <td>{p1_empleo_departamento[16]}</td>
+                        <td>{p1_empleo_departamento[17]}</td>
+                        <td>{p1_empleo_departamento[18]}</td>
+                        <td>{p1_empleo_departamento[19]}</td>
+                        <td>{p1_empleo_departamento[20]}</td>
+                        <td>{p1_empleo_departamento[21]}</td>
+                        <td>{p1_empleo_departamento[22]}</td>
+                        <td>{p1_empleo_departamento[23]}</td>
+                        <td>{p1_empleo_departamento[24]}</td>
+                        <td>{p1_empleo_departamento[25]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_departamento[26]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="20">DEPARTAMENTO O ÁREA EN LA QUE LABORA</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_empleo_puesto[0]}</td>
+                        <td>{p1_empleo_puesto[1]}</td>
+                        <td>{p1_empleo_puesto[2]}</td>
+                        <td>{p1_empleo_puesto[3]}</td>
+                        <td>{p1_empleo_puesto[4]}</td>
+                        <td>{p1_empleo_puesto[5]}</td>
+                        <td>{p1_empleo_puesto[6]}</td>
+                        <td>{p1_empleo_puesto[7]}</td>
+                        <td>{p1_empleo_puesto[8]}</td>
+                        <td>{p1_empleo_puesto[9]}</td>
+                        <td>{p1_empleo_puesto[10]}</td>
+                        <td>{p1_empleo_puesto[11]}</td>
+                        <td>{p1_empleo_puesto[12]}</td>
+                        <td>{p1_empleo_puesto[13]}</td>
+                        <td>{p1_empleo_puesto[14]}</td>
+                        <td>{p1_empleo_puesto[15]}</td>
+                        <td>{p1_empleo_puesto[16]}</td>
+                        <td>{p1_empleo_puesto[17]}</td>
+                        <td>{p1_empleo_puesto[18]}</td>
+                        <td>{p1_empleo_puesto[19]}</td>
+                        <td>{p1_empleo_puesto[20]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_puesto[21]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="2">PUESTO</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_empleo_ingreso_mensual_entero[0]}</td>
+                        <td>{p1_empleo_ingreso_mensual_entero[1]}</td>
+                        <td>{p1_empleo_ingreso_mensual_entero[2]}</td>
+                        <td>{p1_empleo_ingreso_mensual_entero[3]}</td>
+                        <td>{p1_empleo_ingreso_mensual_entero[4]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_ingreso_mensual_entero[5]}</td>
+                        <td style="border:0px; width:10px">.</td>
+                        <td>{p1_empleo_ingreso_mensual_decimal[0]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_ingreso_mensual_decimal[1]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">
+                            INGRESO MENSUAL
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:10px;"></td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            ANTIGUEDAD
+                        </td>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                                <tr>
+                                    <td>{p1_empleo_antiguedad_anio[0]}</td>
+                                    <td style='border-right: 1px solid #AAA;'>{p1_empleo_antiguedad_anio[1]}</td>
+                                </tr>
+                                <tr>
+                                    <td style="border:0px; font-family: 'ArialMT';" align="left" colspan="10">AÑOS</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                                <tr>
+                                    <td>{p1_empleo_antiguedad_mes[0]}</td>
+                                    <td style='border-right: 1px solid #AAA;'>{p1_empleo_antiguedad_mes[1]}</td>
+                                </tr>
+                                <tr>
+                                    <td style="border:0px; font-family: 'ArialMT';" align="left" colspan="10">MESES</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:200px;"></td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_empleo_telefono[0]}</td>
+                        <td>{p1_empleo_telefono[1]}</td>
+                        <td>{p1_empleo_telefono[2]}</td>
+                        <td>{p1_empleo_telefono[3]}</td>
+                        <td>{p1_empleo_telefono[4]}</td>
+                        <td>{p1_empleo_telefono[5]}</td>
+                        <td>{p1_empleo_telefono[6]}</td>
+                        <td>{p1_empleo_telefono[7]}</td>
+                        <td>{p1_empleo_telefono[8]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_telefono[9]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">
+                            TELÉFONO CON LADA
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="field1" width="100%">
+                    <tr>
+                        <td>{p1_empleo_ext[0]}</td>
+                        <td>{p1_empleo_ext[1]}</td>
+                        <td>{p1_empleo_ext[2]}</td>
+                        <td>{p1_empleo_ext[3]}</td>
+                        <td>{p1_empleo_ext[4]}</td>
+                        <td style='border-right: 1px solid #AAA;'>{p1_empleo_ext[5]}</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left; border:0px; font-family: 'ArialMT';" align="left" colspan="10">
+                            EXTENSIÓN
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <div class="fondo11" >
+        <table style="width:100%">
+     
+            <tr>
+                <td style="width:210px">
+                    MOTIVO POR EL QUE SOLICITA EL CRÉDITO       
+                </td>
+                <td style="border-bottom: 1px solid #000; padding-bottom:2px">
+                    {p1_empleo_motivo}
+                </td>
+            </tr>  
+        </table>
+        <br/>         
+        <br/>
+    </div>
+</div>
+
+<div class='tit141'> </div>
+<table width="100%">
+    <tr>
+        <td style="text-align: right; font-family: 'ArialMT'; font-size: 8px; width:100px" >Imprimir a una cara</td>   
+        <td style="width:200px"></td>     
+        <td dstyle="text-align: right; font-family: 'ArialMT'; font-size: 10px; width:300px" align="center"></td>
+        <td style="text-align: right; font-family: 'ArialMT'; font-size: 10px; width:300px" align="right">RECA: 1682-140-009956/13-00418-0220</td>
+        <td style="width:5px"></td>
+    </tr>
+            
+</table>

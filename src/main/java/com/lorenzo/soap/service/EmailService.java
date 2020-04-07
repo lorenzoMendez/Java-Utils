@@ -48,7 +48,7 @@ public class EmailService {
 		return listProperties;
 	}
 	
-	public void sendVoucherTest() throws Exception {	
+	public void sendVoucherTest() throws Exception {
 		PaymentDescriptor voucher = new PaymentDescriptor();
 		String email = "lor90td@gmail.com";
 		
@@ -123,8 +123,9 @@ public class EmailService {
         	comprobante.setAlignment( Element.ALIGN_CENTER );
         	document.add( comprobante );
         	
-        	// Add your logo here or where you want in the document
-        	Image img = Image.getInstance("C:\\Users\\lorenzo.mendoza\\Documents\\CF-logo-docs_2020.png");
+        	// Easy way to get the file in the resources items
+        	Image img = Image.getInstance( this.getClass().getResource( "/img/logos/google_logo.jpg" ).getPath() );
+        	
         	img.scaleAbsolute( 110f, 30f  );
         	img.setAbsolutePosition(280, 450);
         	document.add(img);
@@ -280,5 +281,4 @@ public class EmailService {
         	throw new Exception( "Error." );
         }
     }
-
 }

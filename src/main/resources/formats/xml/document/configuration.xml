@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formato>
+    <path val="/formats/xml/document/" />
+    <pages>
+        <page>page1.xml</page>
+    </pages>
+    <fields>
+    	<field name="document_identifier" type="texto" />
+    	<field name="folio" type="texto" />
+        <field name="names" type="texto" />
+        <field name="first_last_name" type="texto" />
+        <field name="second_last_name" type="texto" />
+        <field name="sex" type="texto" />
+        <field name="date_birth" type="texto" />
+        <field name="birth_place" type="texto" />
+        <field name="nationality" type="texto" />
+        <field name="curp" type="texto" />
+        <field name="verification_code" type="texto" />
+        <field name="qr_code" type="texto" />
+    </fields>
+    <fuentes>
+        <fuente>/formats/fonts/arial.ttf</fuente>
+        <fuente>/formats/fonts/ariali.ttf</fuente>
+        <fuente>/formats/fonts/arialbd.ttf</fuente>
+        <fuente>/formats/fonts/arialbi.ttf</fuente>
+        <fuente>/formats/fonts/ariblk.ttf</fuente>
+        <fuente>/formats/fonts/cour.ttf</fuente>
+        <fuente>/formats/fonts/courbd.ttf</fuente>
+        <fuente>/formats/fonts/courbi.ttf</fuente>
+        <fuente>/formats/fonts/couri.ttf</fuente>
+        <fuente>/formats/fonts/ARIALMT.ttf</fuente>
+        <fuente>/formats/fonts/ARLRDBD.TTF</fuente>
+        <fuente>/formats/fonts/MyriadProBold.ttf</fuente>
+    </fuentes>
+    <styles>
+    	<![CDATA[ 
+		    @page {
+		        margin : -10px 0px 0px 0px;
+		        size: leter;
+		    } 
+		
+		    body {
+		        font-family : Arial;
+		        font-size: 10px;
+		        line-height: 1;
+		    }
+		        
+		
+		    td {
+		        font-size: 9px
+		    }
+		
+		    p {
+		        margin:7;
+		        word-spacing: 0px;
+		    }
+		    
+		    .tit0 {
+		        overflow : hidden;
+		        width : 100%;
+		    }
+		        
+		    .col-3 {
+		        border: 1px solid red;
+		        text-align : center;
+		        float : left;
+		        width : 33.3%;
+		    }
+		        
+		    .fondo1 {
+		        background-color: #8A8F92;
+		    }
+		        
+		    .fondo11 {
+		        margin: -3px;
+		        margin-left: -4px;
+		        background-color: #aaaebb;
+		    }
+		        
+		    .seccion_titulo {
+		        font-family: "Myriad Pro";
+		        font-size: 14.5px;
+		        width: 8.30in;
+		        height:15px;
+		        background-color: #002340;
+		        color: #FFF;        
+		        margin-left: 6px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 1px;
+		        padding-bottom: 5px;
+		        vertical-align: middle;
+		    }
+		     .seccion_titulo_ref {
+		        font-family: "Myriad Pro";
+		        font-size: 13px;
+		        width: 8.27in;
+		        height:10px;
+		        background-color: #002340;
+		        color: #FFF;        
+		        margin-left: 6px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 1px;
+		        padding-bottom: 5px;
+		        vertical-align: middle;
+		    }
+		    
+		    .seccion_contenido {
+		        width: 8.10in;
+		        margin-left: 6px;
+		        border-left:  4px solid #707373;
+		        border-right: 4px solid #707373;
+		        padding: 4px;        
+		    }
+		        .seccion_contenido_2 {
+		        width: 8.04in;
+		        margin-left: 6px;
+		        margin-right: 6px;
+		        border-left:  4px solid #707373;
+		        border-right: 4px solid #707373;
+		        padding: 4px;  
+		        font-size:7px;
+		        font-family: 'ArialMT';
+		            
+		    }
+		
+		    .seccion_contenido td {
+		        font-family: 'ArialMT'; 
+		        font-size: 9.5px
+		    }
+		        
+		    .seccion_fin {
+		        width: 8.20in;
+		        height:2px;
+		        background-color: #707373;
+		        margin-left: 6px;
+		        margin-top: -2px;
+		        padding-bottom: 1px;
+		    }
+		        
+		    .tit1 {
+		        width:100%;
+		        height:15px;
+		        background-color: #002340;
+		        color: #FFF;
+		        font-size: 12px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 5px;
+		        padding-bottom: 5px;
+		        margin-bottom: -2px;
+		        vertical-align: middle;
+		    }
+		        
+		    .tit11 {
+		        width:100%;
+		        height:20px;
+		        background-color: #002340;
+		        color: #FFF;
+		        font-size: 10px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 5px;
+		        margin-bottom: -2px;
+		    }
+		        
+		     .tit12 {
+		        width: 8.5in%;
+		        border-left: 2px solid #002340;
+		        border-right: 2px solid #002340;
+		        font-size: 11px;
+		        padding: 5px;
+		    }
+		        
+		    .tit13 {
+		        width: 8.5in%;
+		        border-left: 2px solid #002340;
+		        border-right: 2px solid #002340;
+		        font-size: 11px;
+		        
+		        height:2px;
+		        background-color: #002340;
+		    }
+		    .tit14 {
+		        width: 8.5in%;
+		        border-left: 5px solid #002340;
+		        border-right: 5px solid #002340;
+		        font-size: 11px;
+		        
+		        height:5px;
+		        background-color: #002340;
+		    }
+		    .tit141 {
+		        width: 8.27in;
+		        height:5px;
+		        background-color: #002340;
+		        margin-left: 6px;
+		        margin-right: 6px;
+		
+		    }
+		        
+		    .tit2 {
+		        width:100%;
+		        height:12px;
+		        background-color: #002340;
+		        color: #FFF;
+		        font-size: 11px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 5px;
+		        
+		    }
+		  
+		    .tit3 {
+		        width:100%;
+		        height:60px;
+		        background-color: #002340;
+		        color: #FFF;
+		        font-size: 15px;
+		        text-align: center;
+		        font-weight: bold;
+		        padding-top: 5px;
+		        
+		    }
+		        
+		    .cont1 {
+		        width: 8.5in%;
+		        border-left: 5px solid #002340;
+		        border-right:5px solid #002340;
+		        padding:5px;
+		        margin-bottom: -2px;
+		    }
+		        
+		    .cont1-2 {
+		        width: 8.5in%;
+		        border-left: 5px solid #002340;
+		        border-right:5px solid #002340;
+		        padding:5px;
+		        margin-bottom: -2px;
+		        line-height: 140%; font-size: 1em
+		    }
+		
+		    .cont2 {
+		        width: 8.5in%;
+		        border-left: 5px solid #002340;
+		        border-right:5px solid #002340;
+		        border-bottom:5px solid #002340;
+		        padding:5px;
+		        margin-bottom: -2px;
+		    }
+		        
+		    .field1 td { vertical-align: top;
+		        font-size: 10px;
+		        font-family: 'Courier New';
+		        width:15px;
+		        height: 13px;
+		        border-left: 1px solid #888;
+		        border-bottom: 1px solid #888;
+		        text-align: center;
+		        align: center;
+		    }
+		                
+		    .lineH {
+		      width:100%;
+		      height:5px;
+		      background-color: #002340;
+		    }
+		        
+		    .reca {
+		        width: 787px;
+		        text-align: right;
+		        font-size: 11px;
+		        font-family: 'ArialMT';
+		        margin-right: 20px;
+		    }
+		        
+		    .clausulas{
+		        margin-left: 35px;
+		        margin-right: 35px;
+		        color: #231f20;
+		        font-size: 10.5px;
+		    }
+		        
+		    .c_t1 td {
+		        align: justify;
+		        font-family: 'Arial Rounded MT Bold';
+		        font-size: 10.5px;
+		        line-height: 1; 
+		     }
+		        
+		    .p3tabl th {
+		        text-align: center;
+		        font-size: 9px;
+		    }
+		        
+        ]]>
+    </styles>
+</formato>
